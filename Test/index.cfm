@@ -18,14 +18,10 @@
 	</script>
 </head>
 <body>
-	
-
 	<div class="container">
-
 	<div class="page-header">
 		<h1>Art</h1>
 	</div>
-
 		<cfoutput query="art">
 			<p>
 				<h3>#artname#</h3>
@@ -34,8 +30,6 @@
 				<img src="/cfdocs/images/artgallery/#largeimage#">
 			</p>
 		</cfoutput>
-
 	</div>
-
 </body>
 </html>
